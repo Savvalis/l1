@@ -4,3 +4,7 @@ stock = [
     {'name': 'Xiaomi Mi8', 'stock': 42, 'price': 38000.5,
     }  
 ]
+print(stock[0])
+stock[0]['price'] -= 10000
+
+print(stock[0])
